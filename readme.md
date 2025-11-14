@@ -50,16 +50,16 @@ This project aims to create a fully automated customer data pipeline that genera
 
 - Snowpipe will automatically ingest files into customer_raw.
 
--Stored Procedure pdr_scd_demo() performs upserts to customer.
+- Stored Procedure pdr_scd_demo() performs upserts to customer.
 
--Stream customer_table_changes detects changes.
+- Stream customer_table_changes detects changes.
 
--View v_customer_change_data and task tsk_scd_hist update customer_history.
+- View v_customer_change_data and task tsk_scd_hist update customer_history.
 
 📌 Highlights:
 
--Fully automated incremental ETL pipeline
+- Fully automated incremental ETL pipeline
 
--Maintains SCD1 and SCD2 logic
+- Maintains SCD1 and SCD2 logic
 
--Real-time tracking using Snowflake streams and tasks
+- Real-time tracking using Snowflake streams and tasks
